@@ -33,7 +33,7 @@ userRouter.post("/", createUser);
 postRouter.post("/", createPost);
 
 userRouter.route("/:user_id").get(getUser).patch(updateUser).delete(deleteUser);
-postRouter.route("/:post_id").get(postUser).patch(updatePost).delete(deletePost);
+// postRouter.route("/:post_id").get(postUser).patch(updatePost).delete(deletePost);
 
 // ****************************users********************
 // user Route Handlers

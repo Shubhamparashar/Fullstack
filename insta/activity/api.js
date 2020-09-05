@@ -5,11 +5,11 @@
 // in pkg.json dir => npm start
 const express = require("express");
 const app = express();
-let userDB = require("./user.json");
+// let userDB = require("./user.json");
 const fs = require("fs");
 const path = require("path");
 const userRouter = require("./router/userRouter");
-const postRouter = require("./router/postRouter");
+// const postRouter = require("./router/postRouter");
 // REST API
 // HTTP request => 
 // create => POST
@@ -39,7 +39,7 @@ app.use(function (req, res, next) {
 // get Request => 
 // localhost:3000/api/users/user_id
 app.use("/api/users", userRouter);
-app.use("/api/post", postRouter);
+// app.use("/api/post", postRouter);
 
 
 
