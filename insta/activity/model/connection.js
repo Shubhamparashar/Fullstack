@@ -7,5 +7,5 @@ var connection = mysql.createConnection({
 })
 
 connection.connect();
-// console.log("working");
+console.log("working");
 module.exports = connection;
