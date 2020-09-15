@@ -12,6 +12,7 @@ class App extends Component {
     }, {
       id: "3", name: "Learn React"
     }]
+    
   }
   removeTask = (toBeRemovedid) => {
     // remove task deleted task from state 
